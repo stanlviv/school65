@@ -1,0 +1,118 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.presentation {
+    margin: 0;
+    padding: 0;
+    background: url("../photos/modern.jpg") no-repeat fixed bottom;
+    height: 250px;
+}
+
+.articles {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header{
+    background-color: indigo;
+    min-height: 50px;
+    border-bottom: midnightblue 3px solid;
+    position: sticky;
+    top: 0;
+}
+header a{
+    color: orange;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header li #main {
+    text-shadow: 1px 1px 3px lightslategray;
+    text-transform: uppercase;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 15px;
+}
+
+header li{
+    display: inline;
+    padding: 20px;
+}
+
+header #image{
+    float: left;
+    padding-left: 15px;
+}
+
+section h3 {
+    color: orange;
+    text-shadow: 1px 1px 3px lightslategray;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.subscribe {
+    background-color: indigo;
+    min-height: 50px;
+    border-top: midnightblue 3px solid;
+    color: orange;
+    text-shadow: 1px 1px 3px lightslategray;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.subscribe span {
+    padding-top: 12px;
+    float: left;
+}
+
+.subscribe section {
+    padding-top: 12px;
+    float: right;
+}
+
+.subscribe button {
+    background-color: orange;
+    border-radius: 25px;
+}
+
+.box img {
+    height: 100px;
+}
+
+.box {
+    font-size: 18px;
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#title {
+    color: indigo;
+    text-shadow: 1px 1px 3px lightslategray;
+    font-size: 30px;
+}
+
+.articles h3, p{
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 20px; 
+    background: url("../photos/modern.jpg") no-repeat fixed center;
+    color: orange;
+}

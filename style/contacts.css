@@ -1,0 +1,104 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    background: url("../photos/modern.jpg") no-repeat fixed center;
+    height: 800px;
+}
+
+.articles {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header{
+    background-color: indigo;
+    min-height: 50px;
+    border-bottom: midnightblue 3px solid;
+    position: sticky;
+    top: 0;
+}
+header a{
+    color: orange;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header li #main {
+    text-shadow: 1px 1px 3px lightslategray;
+    text-transform: uppercase;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 15px;
+}
+
+header li{
+    display: inline;
+    padding: 20px;
+}
+
+header #image{
+    float: left;
+    padding-left: 15px;
+}
+
+section h3 {
+    color: orange;
+    text-shadow: 1px 1px 3px lightslategray;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.box img {
+    height: 100px;
+}
+
+.box {
+    font-size: 24px;
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    color: orange;
+    text-shadow: 1px 1px 3px darkblue;
+}
+
+.box h5, a{
+    text-decoration: underline orange;
+    
+}
+
+.box a {
+    color: orange;
+    text-shadow: 1px 1px 3px darkblue;
+}
+
+.box p strong {
+    color: midnightblue;
+    text-shadow: 1px 1px 3px lightslategray;
+}
+
+
+.articles h3, p{
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+    padding: 20px; 
+    color: orange;
+}
